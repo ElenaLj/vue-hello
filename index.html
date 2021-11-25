@@ -8,11 +8,21 @@
 </head>
 <body>
     <!-- div di prova seguendo il video della lezione -->
-    <div id="root">
-        <input type="text" v-model="messaggio">
-    </div>
+    <!-- <div id="root">
+        <h1>Il messaggio inserito nell'input è: {{messaggio}}</h1> -->
+        <!-- <span>{{messaggio}}</span> -->
+        <!-- <input type="text" v-model="messaggio"> -->
+    <!-- </div> -->
     <!-- /div di prova seguendo il video della lezione -->
     
+
+    <!-- ogni cosa che faccio con Vue deve stare in questo div root! -->
+    <div id="root">
+        <h1>{{message}}</h1>
+        <img v-bind:src="image" alt="vue-js-jumbo">
+    </div>
+
+
     <!-- vue -->
     <!-- development version, includes helpful console warnings -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
