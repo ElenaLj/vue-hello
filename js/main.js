@@ -34,7 +34,8 @@
 const app = new Vue({ 
     el: "#root",
     data: {
-        message: "Hello Vue!",
+        message: "Hello Vue",
+        slogan: "Evan you can use Vue!",
         image: "vuejs.jpeg"
     }
 });

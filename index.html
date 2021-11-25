@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue Hello</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- div di prova seguendo il video della lezione -->
@@ -18,8 +22,11 @@
 
     <!-- ogni cosa che faccio con Vue deve stare in questo div root! -->
     <div id="root">
-        <h1>{{message}}</h1>
-        <img v-bind:src="image" alt="vue-js-jumbo">
+        <div class="container">
+            <h1>{{message}}</h1>
+            <h3>{{slogan}}</h3>
+            <img v-bind:src="image" alt="vue-js-jumbo">
+        </div>
     </div>
 
 
